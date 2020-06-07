@@ -18,6 +18,7 @@ struct ContentView: View {
   @State private var showingAddTodoView: Bool = false
   @State private var animatingButton: Bool = false
   
+
   // MARK: - BODY
   
   var body: some View {
@@ -45,7 +46,7 @@ struct ContentView: View {
               .sheet(isPresented: $showingAddTodoView) {
                 AddTodoView().environment(\.managedObjectContext, self.managedObjectContext)
             }
-            )
+          )
         // MARK: - NO TODO ITEMS
         if todos.count == 0 {
           EmptyListView()
@@ -68,7 +69,7 @@ struct ContentView: View {
               .scaleEffect(self.animatingButton ? 1 : 0)
               .frame(width: 88, height: 88, alignment: .center)
           }
-          .animation(Animation.easeInOut(duration: 2).repeatForever(autoreverses: true))
+          .animation(Animation.easeInOut(duration: 1).repeatForever(autoreverses: true))
           Button(action: {
           self.showingAddTodoView.toggle()
           }) {
