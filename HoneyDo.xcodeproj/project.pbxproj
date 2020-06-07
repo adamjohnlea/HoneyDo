@@ -14,6 +14,7 @@
 		DE95C915248D479300879F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE95C914248D479300879F59 /* Assets.xcassets */; };
 		DE95C918248D479300879F59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE95C917248D479300879F59 /* Preview Assets.xcassets */; };
 		DE95C91B248D479300879F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE95C919248D479300879F59 /* LaunchScreen.storyboard */; };
+		DE95C924248D49B800879F59 /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95C923248D49B800879F59 /* AddTodoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DE95C917248D479300879F59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE95C91A248D479300879F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE95C91C248D479300879F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE95C923248D49B800879F59 /* AddTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,9 @@
 		DE95C90A248D479100879F59 /* HoneyDo */ = {
 			isa = PBXGroup;
 			children = (
+				DE95C922248D495900879F59 /* View */,
 				DE95C90B248D479100879F59 /* AppDelegate.swift */,
 				DE95C90D248D479100879F59 /* SceneDelegate.swift */,
-				DE95C912248D479100879F59 /* ContentView.swift */,
 				DE95C914248D479300879F59 /* Assets.xcassets */,
 				DE95C919248D479300879F59 /* LaunchScreen.storyboard */,
 				DE95C91C248D479300879F59 /* Info.plist */,
@@ -76,6 +78,15 @@
 				DE95C917248D479300879F59 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE95C922248D495900879F59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE95C912248D479100879F59 /* ContentView.swift */,
+				DE95C923248D49B800879F59 /* AddTodoView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 				DE95C911248D479100879F59 /* HoneyDo.xcdatamodeld in Sources */,
 				DE95C913248D479100879F59 /* ContentView.swift in Sources */,
 				DE95C90E248D479100879F59 /* SceneDelegate.swift in Sources */,
+				DE95C924248D49B800879F59 /* AddTodoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
