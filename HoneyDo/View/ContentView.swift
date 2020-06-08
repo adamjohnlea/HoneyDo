@@ -17,7 +17,6 @@ struct ContentView: View {
   
   @State private var showingAddTodoView: Bool = false
   @State private var animatingButton: Bool = false
-  
 
   // MARK: - BODY
   

@@ -16,6 +16,7 @@
 		DE95C91B248D479300879F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE95C919248D479300879F59 /* LaunchScreen.storyboard */; };
 		DE95C924248D49B800879F59 /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95C923248D49B800879F59 /* AddTodoView.swift */; };
 		DE95C926248D6F9500879F59 /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95C925248D6F9500879F59 /* EmptyListView.swift */; };
+		DE9D1703248DA81E00BEBD6B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9D1702248DA81E00BEBD6B /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		DE95C91C248D479300879F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE95C923248D49B800879F59 /* AddTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoView.swift; sourceTree = "<group>"; };
 		DE95C925248D6F9500879F59 /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
+		DE9D1702248DA81E00BEBD6B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				DE95C912248D479100879F59 /* ContentView.swift */,
+				DE9D1702248DA81E00BEBD6B /* SettingsView.swift */,
 				DE95C925248D6F9500879F59 /* EmptyListView.swift */,
 				DE95C923248D49B800879F59 /* AddTodoView.swift */,
 			);
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9D1703248DA81E00BEBD6B /* SettingsView.swift in Sources */,
 				DE95C90C248D479100879F59 /* AppDelegate.swift in Sources */,
 				DE95C911248D479100879F59 /* HoneyDo.xcdatamodeld in Sources */,
 				DE95C926248D6F9500879F59 /* EmptyListView.swift in Sources */,
